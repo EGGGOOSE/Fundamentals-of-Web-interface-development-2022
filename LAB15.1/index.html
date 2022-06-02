@@ -1,13 +1,8 @@
-<img id="pic" src="img1.png" onClick="change_src()" /> 
-<script language="JavaScript">
-    var theNum = "0";
-let arr = ["img1", "img2", "img3"];
-function change_src() { 
-    var p = document.getElementById('pic'); 
-    if(theNum == arr.length){
-        theNum="0";
-    }
-    p.src=arr[theNum]+'.png';
-    theNum++;
-}
-</script>
+<html>
+	<head></head>
+
+	<body>
+		<img id="pic" src="img1.png" onclick="change_src()"> 
+		<script src="slider.js"></script>
+	</body>
+</html>
